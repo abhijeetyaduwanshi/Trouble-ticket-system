@@ -1,0 +1,7 @@
+1. double click the button in the design view with which we need to target for our action.
+2. go the action method of the button.
+3. first we'll close the current frame.
+4. take the frame name and dispose it. code => [frameName].dispose();
+5. then to open the second frame we need to make a object of the new class. code => [frameClassName_toBeOpened] [objectName] = new [frameClassName_toBeOpened]();
+6. use the object created in step 5 to make the new frame visible.
+7. the set visible new frame takes boolean in params. code => [objectName].setVisible(true);
